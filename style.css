@@ -1,0 +1,127 @@
+/* Html Assignment 1 */
+
+/* General Reset */
+body, h1, h2, h3, p, ul, li, nav, a, footer, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif, Cambria, ;
+    font-size: larger;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: rgb(106, 77, 3);
+    padding: 10px;
+    justify-content: justify;
+    text-align: center;
+
+}
+
+header {
+    background: #ffffff;
+    color: #610550;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: block;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    font-size: larger;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a {
+    color: #550758;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 1200px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+h2 {
+    color: #610550;
+    color: #444, ;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #a98700;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: darkmagenta;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(194, 127, 194);
+    color: #1b1700;
+    text-align: center;
+    border-top: 3px solid d;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Hover Effects */
+main section:hover {
+    background-color: #ffe88c;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header :hover {
+    background-color: rgb(194, 127, 194);
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+button :hover {
+    background-color: rgb(194, 127, 194);
+    transition: background-color 0.3s ease-in-out;
+}
+
