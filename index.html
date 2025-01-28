@@ -78,6 +78,29 @@
             <p style="color:blueviolet"><a href="#top"><strong>Back to Top</strong></a> </p>
         </section>
     </main>
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyANaJwwdnudC5NMELtl-g1tVqsIqYux5r8",
+  authDomain: "assigment-1-html.firebaseapp.com",
+  projectId: "assigment-1-html",
+  storageBucket: "assigment-1-html.firebasestorage.app",
+  messagingSenderId: "777558151174",
+  appId: "1:777558151174:web:3b07c0c9496b7a90963387",
+  measurementId: "G-Y9W7FRJFVJ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+</script>
 
     <hr>
     
