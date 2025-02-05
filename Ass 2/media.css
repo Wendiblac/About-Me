@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: purple;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    font-size:larger;
+}
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.image-section, .audio-section, .video-section {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+audio, video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-section :hover{
+    background-color: purple;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.audio-section :hover{
+    background-color: purple;
+    transition: background-color 0.3 ease-in-out;
+}
+
+.video-section :hover{
+    background-color: purple;
+    transition: background-color 0.3 ease-in-out;
+}
+
+a :hover{
+    text-decoration: underline;
+    background-color: purple;
+    transition: background-color 0.3 ease-in-out;
+
+}
+
